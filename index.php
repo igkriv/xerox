@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>xerox parts</title>
-    <link rel="shortcut icon" href="/imgs/piston.png" type="image/png">
+    <link rel="shortcut icon" href="/imgs/xerox.png" type="image/png">
     <script src="js/jquery-3.4.0.min.js"></script>
     <link rel="stylesheet" href="s.css">
   </head>
