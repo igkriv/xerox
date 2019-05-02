@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>xerox parts</title>
+    <title>Запчасти для xerox 4110 4112</title>
+    <meta name="description" content="Редкие запчасти для ремонта Xerox 4110/4112 такие как: 801K24091	848K13704	068K56400	059K71640	127K40173	008R13041	119K90880	008R12925	008R12898	801K05524801K05523	015K65532" />
     <link rel="shortcut icon" href="/imgs/xerox.png" type="image/png">
     <script src="js/jquery-3.4.0.min.js"></script>
     <link rel="stylesheet" href="s.css">
