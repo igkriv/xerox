@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://xeroxparts.cf/
+Sitemap: https://xeroxparts.cf/sitemap.xml
