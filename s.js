@@ -4,7 +4,7 @@ $(document).ready(function() {
 			for (var i = 0; i < arr.length; i++){
 				subarr = arr[i];
 					subarr = "<div class='stroka'><div class='tabl tabl1'>"
-					+ i + subarr.pn + "</div><div class='tabl tabl2'>"
+					+ subarr.pn + "</div><div class='tabl tabl2'>"
 					+ subarr.descr + "</div><div class='tabl tabl3'>"
 					+ subarr.qnty + "</div><div class='tabl tabl4'>"
 					+ subarr.price + "</div><div class='tabl5'>"	
