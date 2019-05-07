@@ -21,10 +21,11 @@
 		<font color="green">t</font>
 		<font color="red">s</font>
 	</h1>
-	<h3>Все запчасти новые, в наличии, звоните 067 641 8020</h3>
+	<h2>Все запчасти новые, в наличии, звоните 067 641 8020</h2>
     <div class="zamena">
       <div class='stroka'><div class='tabl tabl1'>pn</div><div class='tabl tabl2'>название</div><div class='tabl tabl3'>к</div><div class='tabl tabl4'>цена</div><div class='tabl5'>примечание</div></div>
     </div>
+    <div class='zamena2'></div>
     <script src="s.js"></script>
     <!-- <footer class='bottom center'><br>made by o|o</footer> -->
     <div style="visibility: hidden; display:inline;">
