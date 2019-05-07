@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139737504-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139737504-1');
+    </script>
     <meta charset="utf-8">
     <title>Запчасти для xerox 4110 4112</title>
     <meta name="description" content="Редкие запчасти для ремонта Xerox 4110/4112 такие как: 801K24091	848K13704	068K56400	059K71640	127K40173	008R13041	119K90880	008R12925	008R12898	801K05524801K05523	015K65532" />
