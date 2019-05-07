@@ -14,6 +14,12 @@ echo("<button id='back'>НАЗАД</button>");
       
             $arr = json_decode(file_get_contents("xerox.json"), true)[$multikey];
 
+            $prim = ($arr['prim'] != "" ? $arr['prim'] : "без примечаний");
+
+            $kurs = 27;
+
+            $cenagrn = $kurs*$arr['price'];
+
             echo "<h3><div class='good'>";
 
                 echo "<div class='key'>part number</div><div class='value'>";
@@ -28,13 +34,14 @@ echo("<button id='back'>НАЗАД</button>");
                 print_r($arr['qnty']);
                 echo "</div><br>";
 
+                echo "<div class='key'>цена</div><div class='value'>";
+                print_r($cenagrn);
+                echo " грн.</div><br>";
+
                 echo "<div class='key'>примечание</div><div class='value'>";
-                print_r($arr['prim']);
+                print_r($prim);
                 echo "</div>";
 
-                    // foreach ($arr as $key => $value) {
-                    //     echo "<div class='key'>$key</div><div class='value'>$value</div><br>";
-                    //     }
             echo "<div class='imgs'><img class='img' src='imgs/";
             print_r($arr['pn']);
             echo ".JPG'></div></div></h3>";
@@ -44,4 +51,4 @@ echo("<script>
         $('#back').on('click', function() {
             location.reload();
         });
-    </script>");
+      </script>");

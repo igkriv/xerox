@@ -8,6 +8,23 @@ h1 {
 a {
 	text-decoration: none;
 }
+#back {
+	border: 1px solid grey;
+	height: 40px;
+	width: 100px;
+	color: white;
+	background-color: black;
+}
+#back:hover {
+	color: black;
+	background-color: lightgray;
+}
+.strokah {
+	border: 1px solid grey;
+	width: 65%;
+	background-color: bisque;
+	cursor: default;
+}
 .stroka {
 	border: 1px solid grey;
 	width: 65%;
@@ -35,7 +52,7 @@ a {
 			width: 40px;
 		}
 		.tabl4{
-			width: 55px;
+			width: 75px;
 			text-align: right;
 			padding-right: 15px;
 		}
@@ -71,14 +88,14 @@ a {
 	width: 500px;
 }
 .img {
-	width: 650px;
+	width: 675px;
 	cursor: pointer;
 	-moz-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
 	-webkit-transition: all 1s ease-out;
 }
 .img:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
 }
