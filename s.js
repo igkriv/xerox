@@ -32,9 +32,12 @@ $(document).ready(function() {
 // and fully changed div zamena
 $('div').one('click', function() {
 	arrind = event.target.getAttribute('data-name');
-		arrindex = arrind != null ? arrind : 43 ;
-			$.get( "tovar.php", { name: arrindex } )
-				.done(function( data ) {
-					$('div.zamena').html(data);
-	});  
+		if ( arrind != null ) {
+			$.get( "tovar.php", { name: arrind } )
+			.done(function( data ) {
+				$('div.zamena').html(data);
+			});  
+		} else {
+			location.reload();
+		};
 });
