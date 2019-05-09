@@ -9,7 +9,7 @@
 echo("<button id='back'>НАЗАД</button>");
 
     if ($_GET) {
-      
+         
         $multikey = ($_GET['name']);
       
             $arr = json_decode(file_get_contents("xerox.json"), true)[$multikey];

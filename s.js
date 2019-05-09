@@ -28,34 +28,13 @@ $(document).ready(function() {
 	});
 });
 
-
-
 // create page tovar.php by taking event.target data-name from table row 
 // and fully changed div zamena
 $('div').one('click', function() {
-	$.get( "tovar.php", { name: event.target.getAttribute('data-name') } )
-	.done(function( data ) {
-		z = "";
-		$('div.zamena').html(data);
-		// $('div.zamena2').html(z);
+	arrind = event.target.getAttribute('data-name');
+		arrindex = arrind != null ? arrind : 43 ;
+			$.get( "tovar.php", { name: arrindex } )
+				.done(function( data ) {
+					$('div.zamena').html(data);
 	});  
 });
-
-// $("div").click(function(event) {
-// 	$.post('json.php',  function(data) {
-// 		arr = JSON.parse(data);
-// 			subarr = arr[event.target.getAttribute('data-name')];
-// 				subarr = "<div class='tovar'>"
-// 				+ subarr.pn
-// 				+ "</div><div class='tovar'>"
-// 				+ subarr.descr 
-// 				+ "</div><div class='tovar'>"
-// 				+ subarr.qnty 
-// 				+ "</div><div class='tovar'>"
-// 				+ subarr.price 
-// 				+ "</div><div class='tovar'>"	
-// 				+ subarr.prim + "</div><div class='tovimg'><img class='img' src='imgs/"
-// 				+ subarr.pn	+ ".JPG></div>";
-// 	$('div.zamena').html(subarr);
-// 	});
-// });

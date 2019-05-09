@@ -46,7 +46,7 @@
 
     
     <div class="zamena">
-    <div class='strokah'><div class='tabl tabl1'>pn</div><div class='tabl tabl2'>название</div><div class='tabl tabl3'>клво</div><div class='tabl tabl4'>цена, грн.</div><div class='tabl5'>примечание</div></div>
+    <div class='strokah' data-name='43'><div class='tabl tabl1'>pn</div><div class='tabl tabl2'>название</div><div class='tabl tabl3'>клво</div><div class='tabl tabl4'>цена, грн.</div><div class='tabl5'>примечание</div></div>
     </div>
     
     <script src="s.js"></script>
